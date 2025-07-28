@@ -193,4 +193,6 @@ const getUser = async (req, res) => {
     }
 }
 
+//exports
+
 export { registerUser, loginUser, getUser };
