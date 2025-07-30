@@ -26,7 +26,7 @@ const userSchema = new mongoose.Schema({
             values:['admin','customer','restaurant_owner'],
             message:'Role must be either admin, customer or restaurant_owner'
         },
-        default:'user'
+        default:'customer'
     },
     number:{
         type: Number,

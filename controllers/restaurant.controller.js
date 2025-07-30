@@ -28,7 +28,7 @@ const registerRestaurant = async (req, res) => {
         if (owner.role !== 'restaurant_owner') {
             return res.status(400).json({
                 success: false,
-                message: "Permission denied. Required role: 'restaurant_owner'. Current role: 'customer"
+                message: "Permission denied. Required role: 'restaurant_owner'."
             });
         }
 
